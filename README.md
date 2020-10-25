@@ -7,7 +7,7 @@ A library management system made using Python, MySQL and PyQt5
 ##### To Install, run ```pip install <package name>``` in CMD or Terminal.
 ```
 PyQt5
-mysql-python
+mysqlclient
 xlxswriter
 xlrd
 ```
