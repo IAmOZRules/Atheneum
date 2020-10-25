@@ -11,5 +11,9 @@
 		<file>icons/delete.png</file>
 		<file>icons/login.png</file>
 		<file>icons/add.png</file>
+		<file>icons/remove.png</file>
+		<file>icons/down.png</file>
+		<file>icons/clients.png</file>
+		<file>icons/export.png</file>
 	</qresource>
 </RCC>
