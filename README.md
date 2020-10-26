@@ -15,7 +15,11 @@ xlrd
 
 ### How to run the application on the desktop:
 
-1. Download/Clone this repository
+1. Download/Clone this repository.
+
+To Clone the repository, if you have git installed, run the following command in a Terminal/CMD:
+```git clone https://github.com/IAmOZRules/Library-Management-System.git```
+
 2. Create a new database named ```librarysys``` in MySQL.
 
 ------- OR -------
