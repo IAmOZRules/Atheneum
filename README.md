@@ -24,11 +24,18 @@ xlrd
 
 **For example**: If you named your DB to ```'library'``` replace  ```'librarysys'``` with ```'library'``` everywhere in the ```index.py```
 
+3. In the ```index.py``` file, change ```password = '2187'``` to whatever your MySQL Server password is!
 
-3. Run the ```database.sql``` file in MySQL workbench in the required.
-4. Make sure all the required python packages are installed!
-5. Navigate to the folder in which all the files are present.
-6. Run the ```index.py``` file.
-7. For first time login, use username = ```system``` and password = ```system```.
-8. Make sure to create a user for you after opening.
-9. Figure out the extra stuff yourself!
+**For example**: If your MySQL Server password  ```'helloworld'``` replace  ```password = '2187'``` with ```password = 'helloworld'``` everywhere in the ```index.py```
+
+4. Run the ```database.sql``` file in MySQL workbench in the required.
+5. Make sure all the required python packages are installed!
+6. Navigate to the folder in which all the files are present.
+7. Run the ```index.py``` file.
+8. For first time login, use username = ```system``` and password = ```system```.
+9. Make sure to create a user for you after opening.
+10. Figure out the extra stuff yourself!
+
+Do **NOT** skip any step, or the app won't run.
+
+So much for an *easy* install smh.
