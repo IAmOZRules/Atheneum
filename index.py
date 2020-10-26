@@ -604,7 +604,7 @@ class MainApp (QMainWindow, ui):
             self.cur.execute(''' DELETE FROM author WHERE auth_name = %s ''', (auth_name,))
 
             self.db.commit()
-            QMessageBox.question(self, 'Author Deleted','Author deleted successfully!', QMessageBox.Yes | QMessageBox.No)
+            QMessageBox.question(self, 'Author Deleted','Author deleted successfully!', QMessageBox.Ok)
 
             self.lineEdit_19.setText('')
             self.Show_Author()
@@ -622,7 +622,7 @@ class MainApp (QMainWindow, ui):
             self.cur.execute(''' DELETE FROM publisher WHERE pub_name = %s ''', (pub_name,))
 
             self.db.commit()
-            QMessageBox.question(self, 'Publisher Deleted','Publisher deleted successfully!', QMessageBox.Yes | QMessageBox.No)
+            QMessageBox.question(self, 'Publisher Deleted','Publisher deleted successfully!', QMessageBox.Ok)
 
             self.lineEdit_22.setText('')
             self.Show_Publisher()
@@ -637,10 +637,10 @@ class MainApp (QMainWindow, ui):
 
         warning = QMessageBox.question(self, 'Delete Category','Are you sure you want to delete this category? ({0})'.format(cat_name), QMessageBox.Yes | QMessageBox.No)
         if (warning == QMessageBox.Yes):
-            self.cur.execute(''' DELETE FROM category WHERE category_name = %s ''', (cat_name,))
+            self.cur.execute(''' DELETE FROM category WHERE cat_name = %s ''', (cat_name,))
 
             self.db.commit()
-            QMessageBox.question(self, 'Category Deleted','Category deleted successfully!', QMessageBox.Yes | QMessageBox.No)
+            QMessageBox.question(self, 'Category Deleted','Category deleted successfully!', QMessageBox.Ok)
 
             self.lineEdit_24.setText('')
             self.Show_Category()
