@@ -26,13 +26,13 @@ To Clone the repository, if you have git installed, run the following command in
 
 2. Open the ```index.py``` file, replace ```'librarysys'``` everywhere in the code with whatever your DB is named.
 
-**For example**: If you named your DB to ```'library'``` replace  ```'librarysys'``` with ```'library'``` everywhere in the ```index.py```
+**For example**: If you named your DB to ```'library'``` replace  ```'librarysys'``` with ```'library'``` everywhere in the ```index.py``` file.
 
 3. In the ```index.py``` file, change ```password = '2187'``` to whatever your MySQL Server password is!
 
-**For example**: If your MySQL Server password  ```'helloworld'``` replace  ```password = '2187'``` with ```password = 'helloworld'``` everywhere in the ```index.py```
+**For example**: If your MySQL Server password  ```'helloworld'``` replace  ```password = '2187'``` with ```password = 'helloworld'``` everywhere in the ```index.py``` file.
 
-4. Run the ```database.sql``` file in MySQL workbench in the required.
+4. Run the ```database.sql``` file in MySQL workbench in the new created schema.
 5. Make sure all the required python packages are installed!
 6. Navigate to the folder in which all the files are present.
 7. Run the ```index.py``` file.
